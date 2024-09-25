@@ -14,3 +14,4 @@ const newMapArr = mapForEach(arr1, function (item) {
 });
 
 console.log(newMapArr);
+
