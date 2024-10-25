@@ -1,18 +1,17 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
-
 func main() {
-	var investmentAmount = 1000
-	var expectedReturnRate = 5.5
+	/*var investmentAmount float64
+	expectedReturnRate := 5.5
 
-	var years = 10
+	var years float64
+	fmt.Print("investment caunt: ")
+	fmt.Scan(&investmentAmount)
+	fmt.Print("how many year need ")
+	fmt.Scan(&years)
 
-	var fututreValue = float64(investmentAmount) * math.Pow(1+expectedReturnRate/100, float64(years))
+	fututreValue := (investmentAmount) * math.Pow(1+expectedReturnRate/100, (years))
 
-	fmt.Println((fututreValue))
+	fmt.Println((fututreValue))*/
 
 }
