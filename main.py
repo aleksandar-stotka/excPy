@@ -1,27 +1,16 @@
-import random
-
-words = ["tabla", "zanaet", "kuka"]
-
-
-random_words = random.choice(words)
-
-print(random_words)
-
-placeholder = ""
-display = ""
+calculate_of_units = 24 
+name_of_units = "hours"
 
 
-guess = input("guess words ").lower()
 
-len_random_letter = len(random_words)
+def days_of_units(number_of_days):
+      return f"{number_of_days} need {number_of_days * calculate_of_units} {name_of_units}"
 
-for position in range(len_random_letter):
-        placeholder += '_'
-        print(placeholder)
 
-for letter in words:
-    if guess == letter:
-       display += letter
-    else: display += '_'   
+user_input = input ("hey user enter number of days and will be convert to  hours \n")
+user_input_number = int(user_input)
 
-print(display)
+
+calculate_value = days_of_units(user_input_number)
+
+print(calculate_value)
