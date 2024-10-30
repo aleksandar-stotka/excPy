@@ -1,3 +1,4 @@
+'''
 def main():
     x = int(input("write your number "))
     if x % 2 == 0:
@@ -15,6 +16,12 @@ def is_even(n):
     else:
         return False
     
-user_out = is_even(2)
+user_out = int(input("choose number "))
 
-print(user_out)
+fine_score = is_even(user_out)
+
+print(fine_score)
+'''
+
+
+
