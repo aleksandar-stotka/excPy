@@ -1,4 +1,4 @@
-'''
+
 def main():
     x = int(input("write your number "))
     if x % 2 == 0:
@@ -21,7 +21,7 @@ user_out = int(input("choose number "))
 fine_score = is_even(user_out)
 
 print(fine_score)
-'''
+
 
 
 
