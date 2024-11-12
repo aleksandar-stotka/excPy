@@ -1,4 +1,5 @@
-
+import random
+'''
 def main():
     x = int(input("write your number "))
     if x % 2 == 0:
@@ -21,6 +22,24 @@ user_out = int(input("choose number "))
 fine_score = is_even(user_out)
 
 print(fine_score)
+
+'''
+
+words = ['tapan','kuka',"majka"]
+
+random_word = random.choice(words)
+print(random_word)
+
+display = "_"
+display_letter = []
+for letter in random_word:
+      letter = display
+      print(letter)
+      
+
+        
+    
+
 
 
 
