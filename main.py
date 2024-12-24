@@ -33,15 +33,14 @@ random_word = random.choice(words)
 
 print(random_word)
           
-display = "_"
-display_letter = []
+display = ""
 
-guess_letter = input("guess the letter ")
-
+guess_letter = input("guess the letter ").lower()
 
 for letter in random_word:
-    letter == display
     if letter == guess_letter:
-        display_letter.append(letter)
-     
-    print(display_letter)
+        display += letter
+    else:
+        display += "_"
+        
+print(display)      
